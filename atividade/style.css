@@ -1,0 +1,100 @@
+header {
+    width: 100%;
+    padding: 0; 
+    margin: 0;
+    background-color: #22438C; 
+}
+
+body, html {
+    margin: 0; 
+    padding: 0;
+    width: 100%; 
+}
+
+main{
+    max-width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: 5px 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #22438C;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;      
+    left: 0;             
+    bottom: 0;
+    width: 100%;
+    z-index: 100;  
+    font-family: monospace;      
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #22438C;
+    font-family: monospace;
+}
+
+li {
+    float: left;
+    margin: 10px;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #112C66;
+}
+
+.dropdown-content a{
+    color : rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #112C66;
+}
+
+.caixa {
+    position: relative;
+}
+
+ .caixa-invisivel {
+    display: none;
+}
+
+ .caixa:hover .caixa-invisivel {
+    display: block;
+}
+
+ .caixa img {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ 
